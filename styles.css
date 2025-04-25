@@ -1,0 +1,132 @@
+
+
+/* Row Layout for Flexbox */
+.row {
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: space-between; /* Ensure space between the columns */
+    align-items:stretch; 
+    padding-left: 15px;  /* Add space on the left */
+    padding-right: 15px; /* Add space on the right */
+  }
+  
+  /* Styling for the Green Outline Box */
+  .green-outline {
+    border: 5px solid #618C03; /* Green outline */
+    flex: 1; /* Ensure both green boxes stretch equally */
+  padding: 15px; /* Add padding inside the green box */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    text-align: center;
+  }
+  
+  .col-6 {
+    padding-left: 15px;  /* Adds padding to the left side of the column */
+    padding-right: 15px; /* Adds padding to the right side of the column */
+    flex: 1; /* Ensures each column in the row takes up equal space */
+  }
+
+
+  /* Image styling */
+  
+  .image {
+    width: 20%;  /* Adjust this size as needed */
+    height: auto;
+    top: 5px;
+    left: 5px;
+}
+  .image2, .image3{
+    width: 50%;  /* Make the photo take up 100% of the left column width */
+    height: auto;  /* Maintain aspect ratio of the image */
+  }
+
+  .image4, .image5{
+    width: 30%;  /* Make the photo take up 100% of the left column width */
+    height: auto;  /* Maintain aspect ratio of the image */
+  }
+  .image6, .image8{
+    width: 30%;
+    height: auto;
+    margin-bottom: 20px; /* Adds space below the image */
+
+  }
+  .image7{
+    width: 20%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+
+  /* Heading styling */
+  h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;  /* Apply Arial font */
+    color: #618C03;
+    margin-bottom: 35px;
+  }
+  
+  p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: black;
+    margin-bottom: 20px,
+
+  }
+.p1{
+  font-family: Arial, sans-serif;
+    color: black;
+    text-align: left;
+    font-size: 20px;
+}
+/* Style the footer */
+footer {
+  background-color: #618C03;
+  padding: 1px;
+  color: white;
+  display: flex; /* Enable flexbox for the footer */
+  justify-content: space-between; /* Space between images and text */
+  align-items: center; /* Vertically align items */
+  width: 100%;
+}
+
+/* Footer Images Styling */
+.footer-images {
+  display: flex;
+  gap: 15px; /* Space between the images */
+}
+
+.footer-logo, .footer-image {
+  width: 100px;  
+  height: auto; 
+}
+
+
+
+/* Contact info styling */
+.contact-info {
+  text-align: center; /* Align text to the right */
+}
+
+/* Style paragraphs inside contact-info */
+.contact-info p {
+  margin: 10px 0;
+}
+
+.btn-book-now {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF; /* Blue color */
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+
